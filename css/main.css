@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#fact{
+    margin: 50px;
+    padding: 10px;
+    background-color: pink;
+    padding: 10px;
+    font-size: 20px;
+}
+button{
+    margin-left: 40%;
+    margin-top: 50px;
+    background-color: #000;
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+}
+#fact::selection{
+    background-color: rgb(4, 255, 0);
+    color: rgb(255, 0, 0);
+}
